@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cmt.taxcalculator.MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="237dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:text="INCOME TAX CALCULATOR"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Basic Salary"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:labelFor="@id/edit1" />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="HRA"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:labelFor="@id/edit1" />
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Special Allowance"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:labelFor="@id/edit1" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:text="LTA"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:labelFor="@id/edit1" />
+
+
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Stand Deduction"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:labelFor="@id/edit1"
+        android:text="50000" />
+
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="123dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="16dp"
+        android:background="#07AC93"
+        android:enabled="false"
+        android:text="Continue"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
